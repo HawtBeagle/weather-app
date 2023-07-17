@@ -18,6 +18,7 @@ const fetchinfo = async (location) => {
 
     let weather = info['weather'][0]['main'];
     if (weather == 'Smoke') weather = 'mist';
+    else if (weather == 'Haze') weather = 'drizzle';
     weather=weather.toLowerCase();
 
     //icon
