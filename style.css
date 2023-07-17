@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: linear-gradient(140deg, rgba(131,58,180,1) 22%, rgba(69,252,210,1) 100%);
+}
+.weatherbox{
+    width: 100%;
+    max-width: 40%;
+    background: linear-gradient(140deg, rgba(58,180,101,1) 0%, rgba(69,252,241,1) 85%, rgba(69,252,241,1) 85%);
+    border-radius: 15px;
+    margin: 5em auto 5em;
+    padding: 3em 4em;
+}
+
+h1{
+    color: white;
+    margin-bottom: 0.5em;
+    margin-left: 3em;
+    font-size: 3em;
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: gray; */
+    border-radius: 25px;
+    margin-bottom: 2em;
+}
+
+#search-bar{
+    flex: 1;
+    padding: 0.7em 2em;
+    color: black;
+    border-radius: 15px;
+    font-size: 1.2em;
+    background-color: rgb(225, 225, 225);
+    border: none;
+    outline: none;
+}
+.searchbar img{
+    width: 3em;
+    margin-left: 1em;
+    padding: 1.1em 1.1em;
+    border-radius: 50%;
+    /* padding: 1em; */
+    background-color: rgb(225, 225 ,225);
+
+}
+
+.searchbar img:hover{
+    background-color: rgb(212, 212, 212);
+}
+.weatherbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.weatherbody img{
+    width: 10em;
+}
+#temperature{
+    font-size: 4.5em;
+    margin-bottom: 0.1em;
+    color: white;
+}
+#location{
+    font-size: 2.5em;
+    margin-bottom: 1.2em;
+    color: white;
+    font-weight: 600;
+}
+
+.weatherfooter{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;    
+    /* background-color: gray; */
+}
+.weatherfooter .humid, .wind{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.weatherfooter .humidity,.windspeed{
+    font-size: 3em;
+    color: white;
+    margin-left: 0.4em;
+}
+.weatherfooter .wind{
+    margin-left: 1.5em;
+}
+.humid div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wind div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.hmtext,.wstext{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
